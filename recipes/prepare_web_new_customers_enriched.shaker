@@ -66,7 +66,7 @@
           "ip_country"
         ],
         "values": [
-          "Japan"
+          "Japan", "Egypt"
         ],
         "matchingMode": "FULL_STRING",
         "action": "REMOVE_ROW",
