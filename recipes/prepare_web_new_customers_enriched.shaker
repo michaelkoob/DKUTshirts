@@ -55,7 +55,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FilterOnValue",
@@ -66,10 +66,31 @@
           "ip_country"
         ],
         "values": [
-          "Japan", "Egypt"
+          "Japan",
+          "Egypt"
         ],
         "matchingMode": "FULL_STRING",
         "action": "REMOVE_ROW",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "campain"
+        ],
+        "values": [
+          "True"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "KEEP_ROW",
         "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
