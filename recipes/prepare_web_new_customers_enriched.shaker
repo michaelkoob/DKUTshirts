@@ -67,7 +67,8 @@
         ],
         "values": [
           "Japan",
-          "Egypt"
+          "Egypt",
+          "South Africa"
         ],
         "matchingMode": "FULL_STRING",
         "action": "REMOVE_ROW",
